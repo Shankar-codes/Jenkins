@@ -1,0 +1,68 @@
+SHELL=/bin/bash
+RUN_TESTS_DISPLAY_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/7/display/redirect?page=tests
+COURSE=Jenkins
+HISTSIZE=10000
+JENKINS_SERVER_COOKIE=durable-0cdf841f422d22b84025e4a69801f24a35d910b53609436960b6bfa75b85800e
+GIT_PREVIOUS_SUCCESSFUL_COMMIT=d73a9e7ce9086a4aef7199ec31c28d3147402eee
+HISTTIMEFORMAT=%d/%m/%y %T 
+AWS_DEFAULT_REGION=us-east-1
+RUN_CHANGES_DISPLAY_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/7/display/redirect?page=changes
+HUDSON_HOME=/var/lib/jenkins
+PWD=/home/ec2-user/jenkins/workspace/Hello-World-Pipeline
+LOGNAME=ec2-user
+XDG_SESSION_TYPE=tty
+BUILD_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/7/
+ANSIBLE_DEPRECATION_WARNINGS=False
+JOB_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/
+BUILD_NUMBER=7
+MOTD_SHOWN=pam
+JENKINS_NODE_COOKIE=ec718ace-ef0e-4888-8d71-b3ab92b71a1c
+BUILD_DISPLAY_NAME=#7
+HOME=/home/ec2-user
+LANG=C.UTF-8
+ANSIBLE_FORCE_COLOR=1
+JENKINS_URL=http://18.206.136.106:8080/
+JOB_BASE_NAME=Hello-World-Pipeline
+PROMPT_COMMAND=$(history -w)
+JOB_NAME=Hello-World-Pipeline
+RUN_DISPLAY_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/7/display/redirect
+SSH_CONNECTION=18.206.136.106 47394 172.31.3.76 22
+JOB_DISPLAY_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/display/redirect
+WORKSPACE=/home/ec2-user/jenkins/workspace/Hello-World-Pipeline
+GIT_PREVIOUS_COMMIT=d73a9e7ce9086a4aef7199ec31c28d3147402eee
+HUDSON_URL=http://18.206.136.106:8080/
+XDG_SESSION_CLASS=user
+NODE_NAME=AGENT-1
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+USER=ec2-user
+HUDSON_SERVER_COOKIE=319e3c9d695529ba
+GIT_URL=https://github.com/Shankar-codes/Jenkins.git
+SHLVL=2
+BUILD_TAG=jenkins-Hello-World-Pipeline-7
+EXECUTOR_NUMBER=1
+HUDSON_COOKIE=3bafcaa2-bed4-4400-881e-ea7733cbc151
+SYSTEMD_PAGER=cat
+XDG_SESSION_ID=9
+JENKINS_HOME=/var/lib/jenkins
+XDG_RUNTIME_DIR=/run/user/1001
+SSH_CLIENT=18.206.136.106 47394 22
+REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
+GIT_COMMIT=1ca4d52949339c03297cd09d81f8307f61bacb05
+which_declare=declare -f
+NODE_LABELS=AGENT-1
+STAGE_NAME=Build
+AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
+WORKSPACE_TMP=/home/ec2-user/jenkins/workspace/Hello-World-Pipeline@tmp
+XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+RUN_ARTIFACTS_DISPLAY_URL=http://18.206.136.106:8080/job/Hello-World-Pipeline/7/display/redirect?page=artifacts
+CI=true
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
+GIT_BRANCH=origin/main
+BUILD_ID=7
+OLDPWD=/home/ec2-user
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env
