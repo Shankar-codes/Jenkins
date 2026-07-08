@@ -28,11 +28,25 @@ pipeline {
         }
         stage('Test') {
             steps {
+                script {
+                    sh """
+                        echo "Testing... scripted shell command"
+                        echo $COURSE
+                        env
+                    """
+                }
                 echo "Testing..."
             }
         }
         stage('Deploy') {
             steps {
+                script {
+                    sh """
+                        echo "Deploying... scripted shell command"
+                        echo $COURSE
+                        env
+                    """
+                }
                 echo "Deploying..."
             }
         }
