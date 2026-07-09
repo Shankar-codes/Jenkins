@@ -33,6 +33,7 @@ pipeline {
                     """
                 }
                 echo "Building..."
+                echo "Just checking poll SCM webhook"
                 echo "Hello ${params.PERSON}"
 
                 echo "Biography: ${params.BIOGRAPHY}"
