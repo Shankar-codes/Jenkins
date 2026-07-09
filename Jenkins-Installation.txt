@@ -5,8 +5,7 @@ lvextend -L +20G /dev/mapper/RootVG-rootVol
 xfs_growfs /
 xfs_growfs /home
 
-sudo curl -o /etc/yum.repos.d/jenkins.repo \
-    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo curl -L -o /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 
 
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
